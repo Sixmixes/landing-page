@@ -11,7 +11,7 @@ body {
 }
 
 .top-section, .info {
-    padding: 0 300px;
+    padding: 0 200px;
 }
 
 .header-nav div {
@@ -80,15 +80,43 @@ body {
     padding: 8px 28px;
 }
 
-.top-right div {
-}
-
 .top-right img {
     width: 450px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    margin: 50px auto;
+}
+
 .box {
-    height: 100px;
-    width: 100px;
-    border: solid black 6px;
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6 4px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.box-section {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.575);
 }

@@ -10,8 +10,8 @@ body {
     background-color: #1F2937;
 }
 
-.top-section, .info {
-    padding: 0 200px;
+.top-section, .footer, .quote-cont {
+    padding: 10px 300px;
 }
 
 .header-nav div {
@@ -25,7 +25,6 @@ body {
     justify-content: space-between;
     color: white;
     align-items: center;
-    flex-flow: row wrap;
 }
 
 .info {
@@ -64,6 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
+    flex-wrap: wrap-reverse;
 }
 
 .top-left {
@@ -82,16 +82,14 @@ body {
 
 .top-right img {
     width: 450px;
+    margin-bottom: 30px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.info-title {
-    margin: 50px auto;
+    height: 500px;
 }
 
 .box {
@@ -100,6 +98,12 @@ body {
     border: solid #3882f6 4px;
     margin-bottom: 12px;
     border-radius: 18px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
 }
 
 .info h2 {
@@ -112,6 +116,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 75px;
+    flex-wrap: wrap;
 }
 
 .box-section {
@@ -119,4 +124,34 @@ body {
     text-align: center;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.575);
+}
+
+.quote-cont {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.quote span {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: 700;   
+}
+
+.quote > div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
 }

@@ -25,7 +25,6 @@ body {
     justify-content: space-between;
     color: white;
     align-items: center;
-    margin-bottom: 100px;
     flex-flow: row wrap;
 }
 
@@ -41,3 +40,31 @@ body {
     list-style-type: none;
 }
 
+.info-top h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.info-top h1, .info-top p, .info-top button {
+    margin: 0;
+}
+
+.info-top p {
+    font-size: 18px;
+    color: #e5e7ebbe;
+}
+
+.button {
+
+}
+
+.info-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.top-left {
+    width: 450px;
+}

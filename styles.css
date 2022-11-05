@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.top-section, .footer {
+    background-color: #1F2937;
+}
+
+.header-nav, .info-top {
+    margin: 0 200px;
+}
+
+.header-nav div {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-flow: row wrap;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7ebbe;
+}
+
+.nav li {
+    list-style-type: none;
+}
+

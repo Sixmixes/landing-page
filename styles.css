@@ -10,7 +10,7 @@ body {
     background-color: #1F2937;
 }
 
-.top-section {
+.top-section, .info {
     padding: 0 300px;
 }
 
@@ -26,6 +26,10 @@ body {
     color: white;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.info {
+    color: black;
 }
 
 .nav {
@@ -83,3 +87,8 @@ body {
     width: 450px;
 }
 
+.box {
+    height: 100px;
+    width: 100px;
+    border: solid black 6px;
+}

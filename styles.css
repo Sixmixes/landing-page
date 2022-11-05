@@ -4,14 +4,8 @@ body {
     margin: 0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-}
-
-.top-section, .footer {
     background-color: #1F2937;
-}
-
-.header-nav, .info-top {
-    margin: 0 200px;
+    padding: 0 450px;
 }
 
 .header-nav div {
@@ -53,10 +47,7 @@ body {
 .info-top p {
     font-size: 18px;
     color: #e5e7ebbe;
-}
-
-.button {
-
+    margin-bottom: 12px;
 }
 
 .info-top {
@@ -66,5 +57,22 @@ body {
 }
 
 .top-left {
+    width: 450px;
+}
+
+.top-left button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    border-color: #3882F6;
+    padding: 8px 28px;
+}
+
+.top-right div {
+}
+
+.top-right img {
     width: 450px;
 }

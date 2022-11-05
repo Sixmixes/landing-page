@@ -4,7 +4,14 @@ body {
     margin: 0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+}
+
+.top-section, .footer {
     background-color: #1F2937;
+}
+
+.top-section {
+    padding: 0 300px;
 }
 
 .header-nav div {
